@@ -181,7 +181,7 @@ body {
 .innerWrapper {
   background: whitesmoke;
   max-width: 980px;
-  padding: 30px 100px 40px 100px;
+  padding: 30px 100px 0 100px;
   margin: 10px auto;
   position: relative;
   overflow: hidden;
@@ -281,13 +281,6 @@ header p {
   font-size: 0.8rem;
 }
 
-header i {
-  text-align: center;
-  display: inline;
-  padding-right: 10px;
-  color: #F91D1D;
-}
-
 .question {
   display: flex;
   flex-wrap: wrap;
@@ -378,6 +371,13 @@ section.answerWrapperInner {
   margin: 100px 0;
 }
 
+section.answerWrapperInner i {
+  text-align: center;
+  display: inline;
+  padding: 0 5px;
+  color: #F91D1D;
+}
+
 section.answerWrapperOuter.displayBlock {
   display: block;
 }
@@ -396,7 +396,6 @@ footer {
   letter-spacing: 2.5px;
   font-weight: 300;
   text-transform: none;
-  display: none;
 }
 
 footer p {

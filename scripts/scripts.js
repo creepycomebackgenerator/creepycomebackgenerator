@@ -59,26 +59,26 @@ $(function() {
 			// ADD MORE IMAGES/FUNNY LINKS TO MAKE IT FUNNY/lESS NEGATIVE/LIGHTEN MOOD
 
 		if (greatestWeakness == 1) {
-			reclaimSoul = ["<p>\"<a href='https://youtu.be/5sw_qUHx9vE?t=1m56s'>Watch this video of an old man waiting at the airport with flowers for his wife</a>.\"</p>"]
+			reclaimSoul = ["<p><a href='https://youtu.be/5sw_qUHx9vE?t=1m56s'>Watch this video of an old man waiting at the airport with flowers for his wife</a>.</p>"]
 		}
 			else if (greatestWeakness == 2) {
-				reclaimSoul = [ "<p>\"<a href='http://i.imgur.com/YfcFFXm.jpg'>The only acceptable kind of bathroom selfie</a>.\"</p>"]
+				reclaimSoul = ["<p><a href='http://i.imgur.com/YfcFFXm.jpg'>The only acceptable kind of bathroom selfie</a>.</p>"]
 			}
 
 			else if (greatestWeakness == 3) {
-				reclaimSoul = ["<p>\"<a href='https://www.youtube.com/watch?v=JGlD6Ho24lU'>Listen to this Roy Orbison song about breakups</a>.\"</p>"]
+				reclaimSoul = ["<p><a href='https://www.youtube.com/watch?v=JGlD6Ho24lU'>Listen to this Roy Orbison song about breakups</a>.</p>"]
 			}
 
 			else if (greatestWeakness == 4) {
-				reclaimSoul =  ["<p>\"<a href='https://www.youtube.com/watch?v=w_RaPOOVX1Y'>Watch this video of very poor grammar and thank yourself for paying attention in English class</a>.\"</p>"]
+				reclaimSoul =  ["<p><a href='https://www.youtube.com/watch?v=w_RaPOOVX1Y'>Watch this video of very poor grammar and thank yourself for paying attention in English class</a>.</p>"]
 			}
 
 			else if (greatestWeakness  == 5) {
-				reclaimSoul =  ["<p>\"Look at <a href='http://i.imgur.com/XvWwMWE.jpg'>this photo of a cat and dog hugging</a>. And maybe delete your Tinder profile for a while.\"</p>"]
+				reclaimSoul =  ["<p>Look at <a href='http://i.imgur.com/XvWwMWE.jpg'>this photo of a cat and dog hugging</a>. And maybe delete your Tinder profile for a while.</p>"]
 			}
 
 			else if (greatestWeakness  == 6) {
-				reclaimSoul =  [""]
+				reclaimSoul =  ["It's probably time to delete all your online dating profiles, and possibly move to a monastery."]
 			}
 
 			else {

@@ -25,7 +25,7 @@ body {
 .innerWrapper {
 	background: whitesmoke;
 	max-width: 980px;
-	padding: 30px 100px 40px 100px;
+	padding: 30px 100px 0 100px;
 	margin: 10px auto;
 	position: relative;
 	overflow: hidden;
@@ -121,12 +121,6 @@ header {
 		text-align: center;
 		margin: 30px auto;
 		font-size: 0.8rem;
-	}
-	i {
-		text-align: center;
-		display: inline;
-		padding-right: 10px;
-		color: #F91D1D;
 	}
 }
 
@@ -230,6 +224,12 @@ section.answerWrapperOuter {
 
 section.answerWrapperInner {
 	margin: 100px 0;
+	i {
+		text-align: center;
+		display: inline;
+		padding: 0 5px;
+		color: #F91D1D;
+	}
 }
 
 // special class for javascript
@@ -254,7 +254,6 @@ footer {
 	letter-spacing: 2.5px;
 	font-weight: 300;
 	text-transform: none;
-	display: none;
 	p {
 		text-transform: none;
 		font-size: 0.8rem;
