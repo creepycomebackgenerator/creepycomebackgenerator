@@ -195,6 +195,7 @@ p {
   letter-spacing: 3px;
   text-align: center;
   font-weight: 400;
+  line-height: 2;
 }
 
 h1 {
@@ -267,10 +268,17 @@ header img.text {
   top: 2px;
 }
 
+header img.creepFace {
+  width: 100px;
+  position: relative;
+  left: 10%;
+  top: -20px;
+}
+
 header img.woman {
   width: 205px;
   position: relative;
-  right: -477px;
+  right: 10%;
   top: 17px;
 }
 
@@ -347,6 +355,11 @@ div.comeback {
   align-items: center;
 }
 
+div.action {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
 section.answerWrapperOuter {
   display: none;
 }
@@ -358,7 +371,6 @@ section.answerWrapperOuter a {
   padding: 10px 0;
   text-align: center;
   font-weight: 700;
-  letter-spacing: 1px;
   text-decoration: none;
   color: #F91D1D;
 }
@@ -401,12 +413,17 @@ footer {
 footer p {
   text-transform: none;
   font-size: 0.8rem;
+  line-height: 2;
 }
 
 footer a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
+}
+
+footer .action a {
+  letter-spacing: 3px;
 }
 
 footer a:hover {
@@ -470,6 +487,7 @@ div.comeback {
 div.comeback p {
   letter-spacing: 1px;
   font-size: 14px;
+  line-height: 2;
 }
 
 input[type=submit] {
@@ -515,13 +533,12 @@ div.action {
   font-size: 2.4rem;
   line-height: 1;
   font-weight: 300;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
   font-family: 'Dosis', sans-serif;
-  border-top: 1px solid #04151F;
-  border-bottom: 1px solid #04151F;
-  padding: 60px 0;
+  border: 1px solid #04151F;
+  padding: 60px 20px;
 }
 
 h2.uplift {

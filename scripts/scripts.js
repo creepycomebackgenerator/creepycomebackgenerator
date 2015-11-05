@@ -4,7 +4,8 @@ $(function() {
 		//the page does not refresh
 	$('form').on('submit', function(e) {
 		e.preventDefault();
-		$('section.answerWrapperOuter').addClass('displayBlock')
+		$('input.submit').attr('value', 'Play Again' );
+		$('section.answerWrapperOuter').addClass('displayBlock');
 
 		// //this is a variable to hold the answer for question1
 		// //we are asking which button in question 1 the user clicked, and storing that in var answer1
@@ -66,7 +67,7 @@ $(function() {
 			}
 
 			else if (greatestWeakness == 3) {
-				reclaimSoul = ["<p><a href='https://www.youtube.com/watch?v=JGlD6Ho24lU'>Listen to this Roy Orbison song about breakups</a>.</p>"]
+				reclaimSoul = ["<p>Listen to <a href='https://www.youtube.com/watch?v=JGlD6Ho24lU'>this Roy Orbison song about breakups</a>. Maybe if your ex was this cool, you'd actually miss them.</p>"]
 			}
 
 			else if (greatestWeakness == 4) {
@@ -78,7 +79,7 @@ $(function() {
 			}
 
 			else if (greatestWeakness  == 6) {
-				reclaimSoul =  ["It's probably time to delete all your online dating profiles, and possibly move to a monastery."]
+				reclaimSoul =  ["<p>It's probably time to delete all your online dating profiles, and possibly move to a monastery.</p>"]
 			}
 
 			else {
