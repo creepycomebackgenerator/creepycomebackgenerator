@@ -289,6 +289,17 @@ header p {
   font-size: 0.8rem;
 }
 
+header a {
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  border-bottom: 1px solid #FF9F1C;
+}
+
 .question {
   display: flex;
   flex-wrap: wrap;
