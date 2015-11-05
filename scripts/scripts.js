@@ -28,7 +28,7 @@ $(function() {
 			sentence1 = ["<a href='http://imgur.com/iydMdeL'>\"Ham. I'm wearing ham.\"</a>", "<p>\"How many people has that line worked on? If you're including me in that number, you're badly mistaken.\"</p>", ]
 		}
 			else if (questionAnswer1 == 2){
-				sentence1 = ["<p>\"How many people has that line worked on? If you're including me in that number, you're badly mistaken.\"</p>", "<p>Reply only with <a href='http://imgur.com/a/K02G9'>Smash Mouth Lyrics</a> until he leaves you alone.</p>"]
+				sentence1 = ["<p>\"How many people has that line worked on? If you're including me in that number, you're badly mistaken.\"</p>", "<p>Reply only with <a href='http://imgur.com/a/K02G9'>Smash Mouth Lyrics</a> until they leave you alone.</p>"]
 
 			}
 
