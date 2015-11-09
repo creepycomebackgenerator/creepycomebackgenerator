@@ -4,7 +4,7 @@ $(function() {
 		//the page does not refresh
 	$('form').on('submit', function(e) {
 		e.preventDefault();
-		$('input.submit').attr('value', 'Play Again' );
+		$('input.submit').attr('value', '').attr('style', 'background-image: url(images/refresh.png); background-repeat: no-repeat; background-position: center;');
 		$('section.answerWrapperOuter').addClass('displayBlock');
 
 		// //this is a variable to hold the answer for question1

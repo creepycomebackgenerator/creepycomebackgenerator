@@ -413,7 +413,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
+  padding: 30px 10px;
   margin: 30px auto 0 auto;
   font-size: 0.7rem;
   letter-spacing: 2.5px;
@@ -556,11 +556,45 @@ h2.uplift {
   padding-bottom: 30px;
 }
 
-@media all and (max-width: 480px) {
-  body {
-    background: red;
+@media (max-width: 1000px) {
+  .innerWrapper {
+    padding: 30px 15px 0 15px;
   }
+}
+
+/* Portrait tablet and small desktops */
+/* Landscape phone to portrait tablet */
+@media (max-width: 700px) {
   input[type=radio] + label {
-    flex-direction: column;
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+  h1 {
+    font-size: 3.4rem;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 540px) {
+  input[type=radio] + label {
+    width: 100%;
+    height: auto;
+  }
+  label p {
+    font-size: 1.2rem;
+    font-size: 12px;
+  }
+  h1 span.larger {
+    font-size: 3.5rem;
+  }
+  div.comeback {
+    width: auto;
+  }
+  div.comeback img {
+    max-width: 320px;
+  }
+  .answerWrapperInner p {
+    font-size: 1.2rem;
+    font-size: 12px;
   }
 }
