@@ -556,6 +556,18 @@ h2.uplift {
   padding-bottom: 30px;
 }
 
+.social {
+  height: 24px;
+}
+
+span.stMainServices {
+  height: 34px !important;
+}
+
+span.stArrow {
+  display: none !important;
+}
+
 @media (max-width: 1000px) {
   .innerWrapper {
     padding: 30px 15px 0 15px;
