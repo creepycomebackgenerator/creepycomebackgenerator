@@ -25,7 +25,7 @@ $(function() {
 
 
 		if (questionAnswer1 == 1) {
-			sentence1 = ["<a href='http://imgur.com/iydMdeL'>\"Ham. I'm wearing ham.\"</a>", "<p>\"How many people has that line worked on? If you're including me in that number, you're badly mistaken.\"</p>", ]
+			sentence1 = ["<a href='http://imgur.com/iydMdeL'>\"Ham. I'm wearing ham.\"</a>" ]
 		}
 			else if (questionAnswer1 == 2){
 				sentence1 = ["<p>\"How many people has that line worked on? If you're including me in that number, you're badly mistaken.\"</p>", "<p>Reply only with <a href='http://imgur.com/a/K02G9'>Smash Mouth Lyrics</a> until they leave you alone.</p>"]
@@ -38,7 +38,7 @@ $(function() {
 			}
 
 			else if (questionAnswer1 == 4) {
-				sentence1 = ["<img src='images/itsanofromme.jpg'> <a href='http://imgur.com/gu5wAp3'>\"It's a no from me\"</a>", "<img src='images/stephenharper.gif'> <p>Send him this GIF. If it doesn't scare him off, we don't know what will.</p>	",]
+				sentence1 = ["<img src='images/itsanofromme.jpg'> <a href='http://imgur.com/gu5wAp3'>\"It's a no from me\"</a>", "<img src='images/stephenharper.gif'> <p>Send him this GIF. If it doesn't scare him off, we don't know what will.</p>"]
 
 			}
 
@@ -49,7 +49,6 @@ $(function() {
 
 			else if (questionAnswer1 == 6) {
 				sentence1 = ["<img src='images/legheadwoman.jpg'><a href='http://i.imgur.com/9awt4KW.jpg'>Just send this photo back. Over and over.</a>", "<img src='images/stareback.gif'>"]
-
 			}
 
 			else {
@@ -59,9 +58,10 @@ $(function() {
 
 			// ADD MORE IMAGES/FUNNY LINKS TO MAKE IT FUNNY/lESS NEGATIVE/LIGHTEN MOOD
 
-		if (greatestWeakness == 1) {
-			reclaimSoul = ["<p><a href='https://youtu.be/5sw_qUHx9vE?t=1m56s'>Watch this video of an old man waiting at the airport with flowers for his wife</a>.</p>"]
-		}
+			if (greatestWeakness == 1) {
+				reclaimSoul = ["<p><a href='https://youtu.be/5sw_qUHx9vE?t=1m56s'>Watch this video of an old man waiting at the airport with flowers for his wife</a>.</p>"]
+			}
+			
 			else if (greatestWeakness == 2) {
 				reclaimSoul = ["<p><a href='http://i.imgur.com/YfcFFXm.jpg'>The only acceptable kind of bathroom selfie</a>.</p>"]
 			}
